@@ -42,6 +42,8 @@ header {
     width: 1600px;
     height: 1000px;
     background-color: #f4f4f5;
+    background-size: cover;
+    background-position: center;
     
 }
 
