@@ -44,7 +44,28 @@ header {
     background-color: #f4f4f5;
     background-size: cover;
     background-position: center;
+    padding: 61px 218px 0 215px;
     
+}
+
+.header-top{
+    display: flex;
+    
+}
+
+.header__list{
+    display: flex;
+    
+}
+
+.header__title{
+    font-family: 'Varela Round';
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 400;
+    color: #26272d;
+    padding-top: 128px;
+    text-align: center;
 }
 
 
