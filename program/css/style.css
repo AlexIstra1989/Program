@@ -50,12 +50,25 @@ header {
 
 .header-top{
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .header__list{
     display: flex;
     
+}
+
+.header__item{
+    padding: 5px 10px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #26272d;
+}
+
+.header__item--opacity{
+    padding: 5px 10px;
 }
 
 .header__title{
@@ -68,4 +81,28 @@ header {
     text-align: center;
 }
 
+.header__text {
+    padding-top: 40px;
+    margin-left: 175px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+    max-width: 781px
+}
+
+.header__btn-head{
+    width: 205px;
+    height: 50px;
+    border: 1px solid #26272d;
+    border-radius: 25px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #26272d;
+    margin: 62px 0 0 460px;
+}    
 
