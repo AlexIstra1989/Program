@@ -290,5 +290,54 @@ header {
     width: 25%;
 }
 
+.regisration{
+    padding: 75px 550px 131px 550px;
+}
 
+.regisration__name{
+    text-align: center;
+    opacity: 0.5;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #3a3d4b;
 
+}
+
+.regisration__title{
+    text-align: center;
+    font-family: 'Varela Round';
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #3a3d4b;
+    min-width: 434px;
+    padding-top: 37px;
+}
+
+.regisration__form{
+    padding-top: 47px;
+}
+
+.regisration__span{
+    opacity: 0.3;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #3a3d4b;
+}
+
+.regisration__link{
+    width: 210px;
+    height: 60px;
+    background-color: #131315;
+    border-radius: 30px;
+    color: white;
+    margin-top: 22px;
+}
