@@ -384,3 +384,40 @@ header {
     letter-spacing: 0.1em;
     color: #26272d;
 }
+
+.subscribe{
+    padding: 159px 215px 190px 85px;
+    display: flex;
+}
+
+.subscribe__title{
+    font-family: 'Varela Round';
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #26272d;
+    padding-bottom: 67px;
+    max-width: 215px;
+
+}
+
+.subscribe__span--opacity{
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+    
+}
+
+.subscribe__txt{
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+    max-width: 365px;
+    padding-top: 81px;
+}
