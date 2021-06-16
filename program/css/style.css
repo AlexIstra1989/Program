@@ -375,3 +375,12 @@ header {
     color: #8c8f94;
 }
 
+.reviews__span{
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
