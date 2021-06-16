@@ -320,6 +320,8 @@ header {
 
 .regisration__form{
     padding-top: 47px;
+    padding-bottom: 66px;
+    text-align: center;
 }
 
 .regisration__span{
@@ -331,6 +333,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #3a3d4b;
+    
 }
 
 .regisration__link{
@@ -339,5 +342,36 @@ header {
     background-color: #131315;
     border-radius: 30px;
     color: white;
-    margin-top: 22px;
+    
+
 }
+
+.reviews{
+    padding: 132px 236px 128px 236px;
+}
+
+.reviews__wrap{
+    text-align: center;
+    width: 100%;
+}
+
+.reviews__box{
+    
+}
+
+.reviews__title{
+    font-family: Lato;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #26272d;
+}
+
+.reviews__excerpt{
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
