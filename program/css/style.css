@@ -388,6 +388,7 @@ header {
 .subscribe{
     padding: 159px 215px 190px 85px;
     display: flex;
+    background-color: #f4f4f5;
 }
 
 .subscribe__title{
@@ -420,4 +421,52 @@ header {
     color: #8c8f94;
     max-width: 365px;
     padding-top: 81px;
+}
+
+.subscribe__starter{
+    width: 340px;
+    height: 550px;
+    background-color: #ffffff;
+    box-shadow: 10px 28px 50px 0px rgba(92,95,101,0.2);
+    border-radius: 10px;
+}
+
+.starter__title{
+    font-family: Lato;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #26272d;
+    padding-bottom: 29px;
+}
+
+.starter__span{
+    width: 63px;
+    height: 28px;
+    opacity: 0.2;
+    border: 1px solid #26292c;
+    border-radius: 14px;
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.starter__subtitle{
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.starter__list{
+
+}
+
+.starter__item{
+
 }
