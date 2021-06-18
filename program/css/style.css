@@ -438,6 +438,8 @@ header {
     font-weight: 300;
     color: #26272d;
     padding-bottom: 29px;
+    text-align: center;
+    padding-top: 62px;
 }
 
 .starter__span{
@@ -461,12 +463,48 @@ header {
     line-height: 28px;
     font-weight: 400;
     color: #8c8f94;
+    padding-top: 56px;
+    text-align: center;
 }
 
 .starter__list{
-
+    padding-top: 47px;
+    text-align: center;
 }
 
 .starter__item{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #26292c;
+   
+}
 
+.starter__btn{
+    width: 212px;
+    height: 42px;
+    background-color: #267df4;
+    border-radius: 21px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 89px;
+    
+}
+
+.subscribe__pro{
+    background-color: #ebebed;
+}
+
+.pro__title{
+    font-family: Lato;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #26272d;
+    padding-top: 43px;
+    text-align: center;
 }
