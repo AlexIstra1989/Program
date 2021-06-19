@@ -287,7 +287,11 @@ header {
 .interface__content{
     padding-top: 46px;
     display: flex;
-    width: 25%;
+    width: 20%;
+}
+
+.interface__box{
+
 }
 
 .regisration{
@@ -391,6 +395,12 @@ header {
     background-color: #f4f4f5;
 }
 
+.subscribe__wrap{
+    width: 1600px;
+    height: 900px;
+    background-color: #f4f4f5;
+}
+
 .subscribe__title{
     font-family: 'Varela Round';
     font-size: 42px;
@@ -421,6 +431,12 @@ header {
     color: #8c8f94;
     max-width: 365px;
     padding-top: 81px;
+    padding-bottom: 44px;
+}
+
+.subscribe__link{
+    text-decoration: underline;
+    color: #267df4;
 }
 
 .subscribe__starter{
@@ -497,6 +513,10 @@ header {
 
 .subscribe__pro{
     background-color: #ebebed;
+    width: 340px;
+    height: 510px;
+    background-color: #ebebed;
+    border-radius: 10px;
 }
 
 .pro__title{
@@ -507,4 +527,55 @@ header {
     color: #26272d;
     padding-top: 43px;
     text-align: center;
+    padding-bottom: 37px;
+}
+
+.pro__span{
+    width: 63px;
+    height: 28px;
+    opacity: 0.2;
+    border: 1px solid #26292c;
+    border-radius: 14px;
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.pro__subtitle{
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+    padding-top: 65px;
+}
+
+.pro__list{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pro__item{
+   font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #26292c; 
+}
+
+.pro__btn{
+    width: 202px;
+    height: 42px;
+    border: 1px solid #267df4;
+    border-radius: 21px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #267df4;
+    margin-top: 65px;
 }
