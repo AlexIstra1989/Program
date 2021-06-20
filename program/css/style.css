@@ -579,3 +579,155 @@ header {
     color: #267df4;
     margin-top: 65px;
 }
+
+.subscription{
+    padding: 89px 519px 86px 519px;
+    text-align: center;
+}
+
+.subscription__title{
+    font-family: 'Varela Round';
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #26292c;
+}
+
+.subscription__form{
+    padding-top: 50px;
+    padding-bottom: 28px;
+}
+
+.subscription__mail{
+    width: 562px;
+    height: 50px;
+    opacity: 0.2;
+    border: 1px solid #26292c;
+    border-radius: 25px;    
+    opacity: 0.7;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #26292c;
+    padding-left: 26px;
+}
+
+.subscription__btn{
+    width: 134px;
+    height: 42px;
+    background-color: #6fc754;
+    border-radius: 21px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    
+}
+
+.subscription__span{
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.footer{
+    display: flex;
+    padding: 89px 310px 36px 215px;
+}
+
+.footer__content{
+
+}
+
+.footer__txt{
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #8c8f94;
+    padding-top: 34px;
+    max-width: 285px;
+    padding-bottom: 32px;
+}
+
+.footer__link{
+    
+}
+
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 41px;
+    max-width: 222px;
+}
+
+.learn__title{
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.learn__list{
+ 
+   
+}
+
+.learn__item{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #8c8f94; 
+}
+
+.about__title--bottom{
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.about__list{
+
+}
+
+.about__item{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.support__title{
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.support__list{
+
+}
+
+.support__item{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #8c8f94;
+}
