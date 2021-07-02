@@ -41,11 +41,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 header {
     background-image: url('..//img/background_16771.png');
     width: 100%;
-    min-height: 100vh;
+    height: 135vh;
     background-color: #f4f4f5;
     background-size: cover;
     background-position: center;
-    padding: 61px 218px 0 215px;
+    padding: 60px 215px;
     
 }
 
@@ -111,6 +111,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 60px;
 }
 
 .header__title{
@@ -119,8 +120,6 @@ header {
     line-height: 72px;
     font-weight: 400;
     color: #26272d;
-    margin-top: 125px;
-    text-align: center;
 }
 
 .header__text {
@@ -146,7 +145,7 @@ header {
     line-height: 1.2;
     font-weight: 400;
     color: #26272d;
-    margin-top: 80px;
+    margin-top: 60px;
     position: relative;
 }    
 
@@ -211,7 +210,7 @@ header {
 }
 
 .about__content{
-
+    margin: 160px 0 0 100px;
 }
 
 .about__title{
@@ -248,7 +247,15 @@ header {
     line-height: 1.2;
     font-weight: 400;
     color: #ffffff;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+}
 
+.about__btn::before{
+    position: absolute;
+    content: url("../img/arrow.png");
+    right: 15px;
 }
 
 .about__link{
@@ -319,16 +326,8 @@ header {
     margin-top: 30px;
 }
 
-.location__img--drop{
-   
-}   
-
-.location__img--ever{
-    
-}
-
 .interface{
-    padding: 283px 0 123px 0;
+    background-color:#f5f5f8;
     
 }
 
@@ -339,6 +338,8 @@ header {
     font-weight: 400;
     color: #26272d;
     text-align: center;
+    padding-top: 140px;
+    
 }
 
 .interface__subtitle{
@@ -351,34 +352,42 @@ header {
     color: #8c8f94;
     padding-top: 92px;
     text-align: center;
-    
+    position: relative;
+}
+
+.interface__subtitle::before{
+    position: absolute;
+    content: url("../img/Line.png");
+    left: 770px;
+    bottom: 60px;
 }
 
 .interface__content{
-    padding-top: 46px;
     display: flex;
-    width: 20%;
 }
 
 .interface__box{
+    width: 25%;
+}
 
+.interface__img{
+    width: 100%;
 }
 
 .regisration{
-    padding: 75px 550px 131px 550px;
+    
 }
 
-.regisration__name{
-    text-align: center;
-    opacity: 0.5;
+.registration__subtitle{
     font-family: Lato;
     font-size: 12px;
     line-height: 22px;
     font-weight: 700;
     text-transform: uppercase;
+    opacity: 0.5;
     letter-spacing: 0.1em;
     color: #3a3d4b;
-
+    font-weight: 400;
 }
 
 .regisration__title{
@@ -388,14 +397,47 @@ header {
     line-height: 52px;
     font-weight: 400;
     color: #3a3d4b;
-    min-width: 434px;
-    padding-top: 37px;
+    min-width: 500px;
+    margin-top: 120px;
+}
+
+.registration__wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
 }
 
 .regisration__form{
-    padding-top: 47px;
-    padding-bottom: 66px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 502px;
+    height: 50px;
+    border: 1px solid #222328;
+    border-radius: 25px;
+}
+
+.regisration__input{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #3a3d4b;
+    margin-left: 20px;
+    
+}
+
+.regisration__btn{
+    width: 164px;
+    height: 42px;
+    background-color: #6fc754;
+    border-radius: 21px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 5px;
 }
 
 .regisration__span{
