@@ -375,7 +375,7 @@ header {
 }
 
 .regisration{
-    
+    background-color:#f5f5f8;
 }
 
 .registration__subtitle{
@@ -388,6 +388,11 @@ header {
     letter-spacing: 0.1em;
     color: #3a3d4b;
     font-weight: 400;
+    text-align: center;
+}
+
+.registration__subtitle-span{
+    font-weight: 700;
 }
 
 .regisration__title{
@@ -398,7 +403,7 @@ header {
     font-weight: 400;
     color: #3a3d4b;
     min-width: 500px;
-    margin-top: 120px;
+    margin-top: 35px;
 }
 
 .registration__wrap{
@@ -419,12 +424,12 @@ header {
 
 .regisration__input{
     font-family: Lato;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.2;
     font-weight: 400;
     color: #3a3d4b;
     margin-left: 20px;
-    
+    background-color: #f5f5f8;
 }
 
 .regisration__btn{
@@ -438,9 +443,18 @@ header {
     font-weight: 400;
     color: #ffffff;
     margin-right: 5px;
+    position: relative;
+}
+
+.regisration__btn::after{
+    position: absolute;
+    content: url("../img/arrow.png");
+    right: 15px;
 }
 
 .regisration__span{
+    display: flex;
+    justify-content: center;
     opacity: 0.3;
     font-family: Lato;
     font-size: 12px;
@@ -449,30 +463,106 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #3a3d4b;
-    
+    margin-top: 65px;
+}
+
+.registration__box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .regisration__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 210px;
     height: 60px;
     background-color: #131315;
     border-radius: 30px;
     color: white;
-    
+    padding-left: 30px;
+    position: relative;
+}
 
+.regisration__link::before{
+    position: absolute;
+    content: url("../img/apple-icon.png");
+    left: 30px;
+}
+
+.regisration__link-span{
+    font-size: 23px;
+    line-height: 22px;
+    color: white;
 }
 
 .reviews{
-    padding: 132px 236px 128px 236px;
+    
 }
 
-.reviews__wrap{
-    text-align: center;
-    width: 100%;
+.reviews__slider{
+    
 }
 
 .reviews__box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviews__btn-left{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 180px;
+}
+
+.reviews__btn-left::before{
+    position: absolute;
+    content: url("../img/slider-left.png");
+}
+
+.reviews__btn-right{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 180px;
+}
+
+.reviews__btn-right::after{
+    position: absolute;
+    content: url("../img/slider-right.png");
     
+}
+
+.reviews__wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    position: relative;
+}
+
+.reviews__wrap::before{
+    position: absolute;
+    content: url("../img/photo1.png");
+    left: 550px;
+    top: 25px;
+    opacity: 0.3;
+}
+
+.reviews__wrap::after{
+    position: absolute;
+    content: url("../img/Photo2.png");
+    right: 565px;
+    top: 25px;
+    opacity: 0.3;
+}
+
+.reviews__conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .reviews__title{
@@ -481,9 +571,16 @@ header {
     line-height: 38px;
     font-weight: 300;
     color: #26272d;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .reviews__excerpt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 555px;
+    margin-top: 40px;
     font-family: Lato;
     font-size: 20px;
     line-height: 28px;
@@ -492,6 +589,8 @@ header {
 }
 
 .reviews__span{
+    display: flex;
+    justify-content: center;
     font-family: Lato;
     font-size: 12px;
     line-height: 22px;
@@ -499,18 +598,22 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #26272d;
+    margin-top: 120px;
 }
 
 .subscribe{
-    padding: 159px 215px 190px 85px;
-    display: flex;
     background-color: #f4f4f5;
 }
 
+.subscribe__inner{
+    display: flex;
+    
+}
+
 .subscribe__wrap{
-    width: 1600px;
-    height: 900px;
     background-color: #f4f4f5;
+    margin: 205px 150px 200px 215px;
+    
 }
 
 .subscribe__title{
@@ -519,12 +622,11 @@ header {
     line-height: 52px;
     font-weight: 400;
     color: #26272d;
-    padding-bottom: 67px;
-    max-width: 215px;
-
+    max-width: 245px;
 }
 
 .subscribe__span--opacity{
+    display: flex;
     font-family: Lato;
     font-size: 12px;
     line-height: 22px;
@@ -532,18 +634,66 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #26272d;
-    
+    margin-top: 65px;
+}
+
+.subscribe__profile{
+    display: flex;
+    align-items: center;
+    width: 258px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+
+.subscribe__indiv{
+    width: 124px;
+    height: 42px;
+    background-color: #ffffff;
+    border-radius: 21px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #26292c;
+    margin-left: 5px;
+}
+
+.subscribe__comp{
+    background-color: transparent;
+    border: none;
+    padding-left: 35px;
+    opacity: 0.4;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #26292c;
+
 }
 
 .subscribe__txt{
+    display: flex;
+    justify-content: center;
+    max-width: 354px;
     font-family: Lato;
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
     color: #8c8f94;
-    max-width: 365px;
-    padding-top: 81px;
-    padding-bottom: 44px;
+    margin-top: 70px;
+}
+
+.subscribe__span{
+    display: flex;
+    margin-top: 45px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #8c8f94;
 }
 
 .subscribe__link{
@@ -552,11 +702,15 @@ header {
 }
 
 .subscribe__starter{
-    width: 340px;
-    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ffffff;
-    box-shadow: 10px 28px 50px 0px rgba(92,95,101,0.2);
+    margin: 150px 0 190px 0;
+    box-shadow: 10px 28px 50px 0px rgb(92 95 101 / 20%);
     border-radius: 10px;
+    width: 340px;
+    
 }
 
 .starter__title{
@@ -565,16 +719,12 @@ header {
     line-height: 38px;
     font-weight: 300;
     color: #26272d;
-    padding-bottom: 29px;
+    margin-top: 60px;
     text-align: center;
-    padding-top: 62px;
 }
 
 .starter__span{
-    width: 63px;
-    height: 28px;
-    opacity: 0.2;
-    border: 1px solid #26292c;
+    border: 1px solid rgba(0,0,0,0.1);
     border-radius: 14px;
     font-family: Lato;
     font-size: 11px;
@@ -583,6 +733,11 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #26272d;
+    width: 63px;
+    height: 28px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 3px;
 }
 
 .starter__subtitle{
@@ -591,44 +746,53 @@ header {
     line-height: 28px;
     font-weight: 400;
     color: #8c8f94;
-    padding-top: 56px;
+    max-width: 170px;
     text-align: center;
+    margin-top: 55px;
 }
 
 .starter__list{
-    padding-top: 47px;
-    text-align: center;
+    margin-top: 45px;
 }
 
 .starter__item{
     font-family: Lato;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 600;
     color: #26292c;
-   
+    position: relative;
+}
+
+.starter__item::before{
+    position: absolute;
+    content: url("../img/On-icon.png");
+    left: -20px;
 }
 
 .starter__btn{
-    width: 212px;
-    height: 42px;
     background-color: #267df4;
     border-radius: 21px;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
-    color: #ffffff;
-    margin-top: 89px;
-    
+    color: #ffffff;  
+    width: 212px;
+    height: 42px;
+    margin-top: 90px;
 }
 
 .subscribe__pro{
-    background-color: #ebebed;
-    width: 340px;
-    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ebebed;
     border-radius: 10px;
+    width: 340px;
+    height: 510px;
+    border-radius: 10px;
+    margin-top: 180px;
 }
 
 .pro__title{
@@ -637,16 +801,11 @@ header {
     line-height: 38px;
     font-weight: 300;
     color: #26272d;
-    padding-top: 43px;
-    text-align: center;
-    padding-bottom: 37px;
+    margin-top: 30px;
 }
 
 .pro__span{
-    width: 63px;
-    height: 28px;
-    opacity: 0.2;
-    border: 1px solid #26292c;
+    border: 1px solid rgba(0,0,0,0.1);
     border-radius: 14px;
     font-family: Lato;
     font-size: 11px;
@@ -655,6 +814,11 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #26272d;
+    margin-top: 30px;
+    width: 63px;
+    height: 28px;
+    text-align: center;
+    padding-top: 3px;
 }
 
 .pro__subtitle{
@@ -663,25 +827,31 @@ header {
     line-height: 28px;
     font-weight: 400;
     color: #8c8f94;
-    padding-top: 65px;
+    max-width: 125px;
+    margin-top: 55px;
+    text-align: center;
 }
 
 .pro__list{
-    text-align: center;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .pro__item{
-   font-family: Lato;
+    font-family: Lato;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 600;
     color: #26292c; 
+    position: relative;
+}
+
+.pro__item::before{
+    position: absolute;
+    content: url("../img/On-icon.png");
+    left: -20px;
 }
 
 .pro__btn{
-    width: 202px;
-    height: 42px;
     border: 1px solid #267df4;
     border-radius: 21px;
     font-family: Lato;
@@ -689,12 +859,13 @@ header {
     line-height: 1.2;
     font-weight: 400;
     color: #267df4;
-    margin-top: 65px;
+    margin-top: 62px;
+    width: 202px;
+    height: 42px;
 }
 
 .subscription{
-    padding: 89px 519px 86px 519px;
-    text-align: center;
+    
 }
 
 .subscription__title{
@@ -706,23 +877,21 @@ header {
 }
 
 .subscription__form{
-    padding-top: 50px;
-    padding-bottom: 28px;
+    border: 1px solid #26292c;
+    border-radius: 25px;
+    width: 562px;
+    height: 50px;
 }
 
 .subscription__mail{
-    width: 562px;
-    height: 50px;
-    opacity: 0.2;
-    border: 1px solid #26292c;
-    border-radius: 25px;    
+    opacity: 0.2;  
     opacity: 0.7;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
     color: #26292c;
-    padding-left: 26px;
+    padding-left: 30px;
 }
 
 .subscription__btn{
