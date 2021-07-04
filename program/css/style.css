@@ -868,12 +868,20 @@ header {
     
 }
 
+.subscription__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
 .subscription__title{
     font-family: 'Varela Round';
     font-size: 42px;
     line-height: 52px;
     font-weight: 400;
     color: #26292c;
+    
 }
 
 .subscription__form{
@@ -881,9 +889,10 @@ header {
     border-radius: 25px;
     width: 562px;
     height: 50px;
+    margin-top: 50px;
 }
 
-.subscription__mail{
+.subscription__input{
     opacity: 0.2;  
     opacity: 0.7;
     font-family: Lato;
@@ -904,6 +913,7 @@ header {
     line-height: 1.2;
     font-weight: 400;
     color: #ffffff;
+    text-align: center;
     
 }
 
@@ -913,14 +923,15 @@ header {
     line-height: 24px;
     font-weight: 400;
     color: #8c8f94;
+    margin-top: 25px;
 }
 
 .footer{
     display: flex;
-    padding: 89px 310px 36px 215px;
+
 }
 
-.footer__content{
+.footer__top{
 
 }
 
@@ -930,9 +941,7 @@ header {
     line-height: 24px;
     font-weight: 400;
     color: #8c8f94;
-    padding-top: 34px;
     max-width: 285px;
-    padding-bottom: 32px;
 }
 
 .footer__link{
