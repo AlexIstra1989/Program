@@ -927,12 +927,14 @@ header {
 }
 
 .footer{
-    display: flex;
+
+    margin-top: 90px;
 
 }
 
 .footer__top{
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer__txt{
@@ -1020,4 +1022,9 @@ header {
     line-height: 36px;
     font-weight: 400;
     color: #8c8f94;
+}
+
+.footer__bottom{
+
+    margin-top: 90px;
 }
