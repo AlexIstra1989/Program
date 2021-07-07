@@ -586,6 +586,14 @@ header {
     line-height: 28px;
     font-weight: 400;
     color: #8c8f94;
+    position: relative;
+}
+
+.reviews__excerpt::after{
+    position: absolute;
+    content: url("../img/star-icon.png");
+    left: 170px;
+    top: 110px;
 }
 
 .reviews__span{
