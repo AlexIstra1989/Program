@@ -283,6 +283,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .location__content{
@@ -376,6 +377,7 @@ header {
 
 .regisration{
     background-color:#f5f5f8;
+    padding-bottom: 140px;
 }
 
 .registration__subtitle{
@@ -503,7 +505,7 @@ header {
 }
 
 .reviews__slider{
-    
+    margin-bottom: 130px;
 }
 
 .reviews__box{
